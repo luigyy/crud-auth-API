@@ -1,3 +1,5 @@
 # authAPI-boilerplate
-Boilerplate for authentication API written in typescript.
+
+Boilerplate for authentication API written in typescript.  
+
 Planned for mongoose connection.
