@@ -304,3 +304,51 @@
 2022-12-26 21:12:44 [32minfo[39m: [32mSuccessfully connected to database[39m
 2022-12-26 21:15:08 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 13.818 ms[39m
 [35m[39m
+2022-12-26 21:16:46 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.672 ms[39m
+[35m[39m
+2022-12-26 21:16:53 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 3.511 ms[39m
+[35m[39m
+2022-12-26 21:17:50 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.999 ms[39m
+[35m[39m
+2022-12-26 21:18:05 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.458 ms[39m
+[35m[39m
+2022-12-26 21:18:06 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.315 ms[39m
+[35m[39m
+2022-12-26 21:18:09 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.338 ms[39m
+[35m[39m
+2022-12-26 21:18:10 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.175 ms[39m
+[35m[39m
+2022-12-26 21:18:15 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.417 ms[39m
+[35m[39m
+2022-12-26 21:18:21 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 1.513 ms[39m
+[35m[39m
+2022-12-26 21:35:39 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:35:39 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:36:20 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 13.771 ms[39m
+[35m[39m
+2022-12-26 21:36:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:36:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:37:09 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 15.618 ms[39m
+[35m[39m
+2022-12-26 21:37:21 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 200 78 - 3.916 ms[39m
+[35m[39m
+2022-12-26 21:37:22 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 200 78 - 2.887 ms[39m
+[35m[39m
+2022-12-26 21:37:49 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:37:49 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:37:50 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 401 85 - 14.601 ms[39m
+[35m[39m
+2022-12-26 21:38:12 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:38:12 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:38:20 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:38:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:38:22 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bd 401 85 - 15.170 ms[39m
+[35m[39m
+2022-12-26 21:38:26 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 2.455 ms[39m
+[35m[39m
+2022-12-26 21:38:37 [35mhttp[39m: [35mPOST /user/delete/63aa6143e621ddb4d4b2f7bf 200 78 - 2.194 ms[39m
+[35m[39m
+2022-12-26 21:38:39 [35mhttp[39m: [35mPOST /user/delete/63aa6143e621ddb4d4b2f7bf 401 85 - 1.618 ms[39m
+[35m[39m
+2022-12-26 21:39:17 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:39:17 [32minfo[39m: [32mSuccessfully connected to database[39m

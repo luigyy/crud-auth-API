@@ -12,6 +12,7 @@ const {
   //   EMAIL_UNAVAILABLE,
   //   INVALID_PASSWORD,
   //   INVALID_EMAIL,
+  DELETE_SUCCESS,
   UPDATE_SUCCESS,
   SUCCESS,
   SERVER_ERROR,
@@ -71,7 +72,7 @@ export const updateUser: ReqHandler = async (req, res, next) => {
 
   try {
     const result = await UserSchema.updateOne({ _id: id }, updateFields);
-    if (!result) {
+    if (result.n === 0) {
       return next(new HttpError(INVALID_ID));
     }
     const response: ResponseInterface = {
@@ -87,4 +88,25 @@ export const updateUser: ReqHandler = async (req, res, next) => {
 };
 //
 //
-// export const deleteUser: ReqHandler = async (req, res, next) => {};
+export const deleteUser: ReqHandler = async (req, res, next) => {
+  const id = req.params.id;
+
+  //check if id is provided
+  if (!id) {
+    const fieldsRequired = ["id"];
+    return next(new HttpError(MISSING_DATA, fieldsRequired));
+  }
+  //id provided, delete by id
+  try {
+    const result = await UserSchema.deleteOne({ _id: id });
+    if (result.n === 0) {
+      return next(new HttpError(INVALID_ID));
+    }
+    const response: ResponseInterface = {
+      error: false,
+      statusCode: DELETE_SUCCESS.code,
+      message: DELETE_SUCCESS.message,
+    };
+    res.status(DELETE_SUCCESS.code).json(response);
+  } catch (err) {}
+};

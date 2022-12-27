@@ -9,6 +9,7 @@ const codeFor = {
   INVALID_ID: { code: 401, message: "Id is not linked to any user" },
   SUCCESS: { code: 200, message: "Success" },
   UPDATE_SUCCESS: { code: 200, message: "Successfully updated" },
+  DELETE_SUCCESS: { code: 200, message: "Successfully deleted" },
   SERVER_ERROR: { code: 503, message: "Server error" },
   MISSING_TOKEN: {
     code: 401,
