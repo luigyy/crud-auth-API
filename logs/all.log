@@ -262,3 +262,45 @@
 2021-05-27 20:06:26 [32minfo[39m: [32mListening on port 5000[39m
 2021-05-27 20:06:26 [32minfo[39m: [32mSuccessfully connected to database[39m
 2021-05-27 20:06:28 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2022-12-26 21:01:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:01:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:04:23 [35mhttp[39m: [35mGET /register 404 75 - 3.246 ms[39m
+[35m[39m
+2022-12-26 21:04:35 [35mhttp[39m: [35mGET /auth/register 404 75 - 0.796 ms[39m
+[35m[39m
+2022-12-26 21:04:54 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:04:54 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:05:14 [35mhttp[39m: [35mGET /auth/ 404 75 - 2.130 ms[39m
+[35m[39m
+2022-12-26 21:05:19 [35mhttp[39m: [35mGET /auth/register 404 75 - 0.543 ms[39m
+[35m[39m
+2022-12-26 21:05:24 [35mhttp[39m: [35mPOST /auth/register 401 184 - 0.570 ms[39m
+[35m[39m
+2022-12-26 21:06:14 [35mhttp[39m: [35mPOST /auth/register 200 85 - 314.087 ms[39m
+[35m[39m
+2022-12-26 21:06:16 [35mhttp[39m: [35mPOST /auth/register 401 79 - 3.818 ms[39m
+[35m[39m
+2022-12-26 21:06:44 [35mhttp[39m: [35mPOST /auth/register 200 85 - 1234.885 ms[39m
+[35m[39m
+2022-12-26 21:07:46 [35mhttp[39m: [35mPOST /user/read/63aa6143e621ddb4d4b2f7bf 200 364 - 4.891 ms[39m
+[35m[39m
+2022-12-26 21:10:18 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 7.798 ms[39m
+[35m[39m
+2022-12-26 21:10:28 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 2.379 ms[39m
+[35m[39m
+2022-12-26 21:10:44 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 1.989 ms[39m
+[35m[39m
+2022-12-26 21:10:46 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 65 - 1.412 ms[39m
+[35m[39m
+2022-12-26 21:10:57 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.363 ms[39m
+[35m[39m
+2022-12-26 21:11:11 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 0.432 ms[39m
+[35m[39m
+2022-12-26 21:11:59 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:11:59 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:12:00 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 401 168 - 4.723 ms[39m
+[35m[39m
+2022-12-26 21:12:44 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-26 21:12:44 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-26 21:15:08 [35mhttp[39m: [35mPOST /user/update/63aa6143e621ddb4d4b2f7bf 200 78 - 13.818 ms[39m
+[35m[39m
